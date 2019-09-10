@@ -1,37 +1,535 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<!-- Site Title -->
+<title>NATA'S HOMEPAGE</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/icons/">
+<link
+	href='https://fonts.googleapis.com/css?family=Raleway:200,300,400,700,900,800'
+	rel='stylesheet' type='text/css'>
+<link
+	href='https://fonts.googleapis.com/css?family=Roboto:200,300,400,900,700,500,300'
+	rel='stylesheet' type='text/css'>
+<!--CSS============================================= -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/justifiedGallery.min.css">
+<link rel="stylesheet" href="css/et-font.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/nata-skate/nata-skate.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
+	<!-- 加载完成前的动画 -->
+	<div id="preloader">
+		<div class="preloader loading">
+			<span class="slice"></span> <span class="slice"></span> <span
+				class="slice"></span> <span class="slice"></span> <span
+				class="slice"></span> <span class="slice"></span>
+		</div>
+	</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<!-- 导航栏 -->
+	<header class="site-header navbar-fixed-top navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
 
-### Markdown
+			<div class="nav-toggle hidden-xs">
+				<button class="toggle-btn">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			<nav class="collapse navbar-collapse navbar-right">
+				<ul class="nav navbar-nav main-manu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#id2">introduction</a></li>
+					<li><a href="#id3">singer</a></li>
+					<li><a href="#id4">movie</a></li>
+					<li><a href="#id5">model</a></li>
+					<li><a href="#id6">book</a></li>
+					<li><a href="#id7">contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
-```markdown
-Syntax highlighted code block
+	<!-- 主页文字 -->
+	<div class="home-banner fullscreen">
+		<div class="gradient"></div>
+		<div class="banner-content dtable fullscreen">
+			<div class="content-inner dtablecell">
+				<div class="container">
+					<h1>Hello, I am nata.</h1>
+					<p>welcome to my homepage, I'd like to share with you what I
+						like, hope you enjoying...<br><br></p>
+						<p><a href="#id2" class="more-on-me">More On Me</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
 
-# Header 1
-## Header 2
-### Header 3
+	<!-- introduction -->
+	<div id="id2" id="about" class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-5 wow fadeInLeft">
+					<div class="author-thumb text-center">
+						<img src="img/author.png" alt="">
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-7 wow fadeInRight">
+					<div class="about-intro">
+						<h3>introduction</h3>
+						<h5>你好，我叫nata，19周岁，现居青岛。</h5>
+						<span class="divider"></span>
+						<p>
+							日复一日的生活十分枯燥，这时我们需要给生活加一些调剂品。<br>音乐~<br>电影~<br>书籍~<br>可爱的人们~<br>都能给我们带来力量！<br>我想分享给你们我爱的事物，希望你能喜欢...
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 
-- Bulleted
-- List
+	<!-- singer -->
+	<div id="id3" id="process" class="process section">
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>My Favorite Singers</h2>
+					<p>
+						音乐无国界。<br>歌手吸引粉丝的地方不只是歌声，更是ta的品质。
+					</p>
+				</div>
 
-1. Numbered
-2. List
+				<div class="proecess-block col-xs-12 col-sm-6 col-md-4">
+					<div class="process-inner">
+						<div class="icon-holder">
+							<img src="img/blackpink.png" title="点击图片进入歌手主页" id="img1">
+						</div>
+						<h4 class="heading">Blackpink</h4>
+						<p class="description">BLACKPINK（블랙핑크)是YG娱乐于2016年推出的女子团体，包括Jennie、Lisa、Jisoo、Rosé四名成员。</p>
+					</div>
+				</div>
 
-**Bold** and _Italic_ and `Code` text
+				<div class="proecess-block col-xs-12 col-sm-6 col-md-4">
+					<div class="process-inner">
+						<div class="icon-holder">
+							<img src="img/troye.png" title="点击图片进入歌手主页" id="img2" target="_blank">
+						</div>
+						<br>
+						<h4 class="heading">Troye Sivan</h4>
+						<p class="description">Troye Sivan
+							，1995年6月5日出生于南非约翰内斯堡，南非裔澳大利亚歌手。</p>
+					</div>
+				</div>
 
-[Link](url) and ![Image](src)
-```
+				<div class="proecess-block col-xs-12 col-sm-6 col-md-4 ">
+					<div class="process-inner">
+						<div class="icon-holder">
+							<img src="img/char.png" title="点击图片进入歌手主页" id="img3" target="_blank">
+						</div>
+						<h4 class="heading">Charlotte Lawrence</h4>
+						<p class="description">Charlotte Sarah
+							Lawrence，出生于2000年6月8日出生，美国流行女歌手兼模特。</p>
+					</div>
+				</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+			</div>
+		</div>
+	</div>
 
-### Jekyll Themes
+	<!-- movie -->
+	<div id="id4" id="experience" class="experience section">
+		<!--  div class="gradient"></div-->
+		<div class="container">
+			<div class="row">
+				<div class="title">
+					<h2>My Favorite TV</h2>
+					<p>
+						以下是刷剧无数的我精心挑选的四部高分好剧<br>无聊的时候跟我一起刷刷剧吧
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 ">
+					<div class="exp-block">
+						<ul class="list-none">
+							<li>
+								<h4>我的天才女友 第一季（L'amica geniale Season 1 (2018)）</h4> <span>豆瓣评分：9.3
+							</span>
+								<p>《我的天才女友》是埃莱娜·费兰特“那不勒斯四部曲”的第一部，讲述了两个女主人公莉拉和埃莱娜的少女时代。故事一开始，已经功成名就的埃莱娜接到莉拉儿子里诺的电话，说他母亲彻底消失了。埃莱娜想起莉拉对自己命运的预言，于是她写下她们一生的故事……
+								<br><br></p>
+								<div ><a id="learn" href="https://movie.douban.com/subject/28427782/" target="_blank" >Learn More  ></a></div>
+							</li>
+							<li>
+								<h4>爱，死亡和机器人  Love, Death & Robots Season 1 (2019)</h4>
+								<p>豆瓣评分：9.1</p>
+								<p>这部名为《爱，死亡和机器人》的动画短片合集由18部分组成，每部分时长5-15分钟。这些短片涵盖多种类型，包括科幻、奇幻、恐怖和喜剧；这些短片也将包含多种形式，包括传统2D和3DCGI短片。
+								<br><br></p>
+								<div ><a id="learn" href="https://movie.douban.com/subject/30424374/" target="_blank" >Learn More  ></a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="exp-block">
+						<ul class="list-none">
+							<li>
+								<h4>马男波杰克 第五季 BoJack Horseman Season 5 (2018)</h4>
+								<p>豆瓣评分：9.3</p>
+								<p>马男波杰克（威尔·阿奈特 Will Arnett
+									配音）就是一匹中年过气明星马，他年轻时主演的电视剧《胡闹的小马》风靡一时，而今他已是无人问津的过气明星，与人类废柴陶德（亚伦·保尔
+									Aaron Paul 配音）一同生活在LA的一所别墅里...<br><br></p>
+									<div ><a id="learn" href="https://movie.douban.com/subject/27149382/" target="_blank" >Learn More  ></a></div>
+							</li>
+							<li>
+								<h4>非自然死亡 アンナチュラル (2018)</h4>
+								<p>豆瓣评分：9.4</p>
+								<p>三澄美琴是在民间法医组织“UDI”工作的女法医，该组织专门接收由于非正常原因导致死亡的遗体，对其进行解剖以求找到案件的真相。和美琴一起工作的，还有法医中堂系、记录员九部六郎和检查技师东海林夕子等人。
+								<br><br></p>
+								<div ><a id="learn" href="https://movie.douban.com/subject/27140017/" target="_blank" >Learn More</a></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nata-skate/nata-skate.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	<!-- model -->
+	<div id="id5" id="works" class="works section">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="title fadeInDown">
+						<h2>My favorite modle</h2>
+						<p>
+							红发少女Natalie Westling变成酷酷少年Nathan Westling 啦！<br>
+							他在长达十年的忧郁症和焦虑症里，受困于性别认知问题，接受了很多药物和心理治疗。<br>
+							最终Nathan决定勇敢面对，服用激素六个月，以男模身份面对全新的自己<br>
+							------------------------------------------------------------<br>
+							红色的头发~不羁的风格~活跃在各大秀场~总是滑着滑板做着自己~<br>
+							natalie从初中开始吸引我，激励我，现在他成为nathan，依然鼓舞着我。<br>
+							<div><a id="more-model" href="https://models.com/models/natalie-westling/news" target="_blank" >去modle.com主页了解更多</a></div>
+						</p>
+					</div>
 
-### Support or Contact
+					<div class="works-gallery">
+						<div id="mygallery">
+							<div>
+								<img alt="" src="img/nata1.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>natalie刚出道，不顾经纪公司的反对，染了一头红发，这让她赢得了许多工作机会。</p>
+									</div>
+								</div>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+							</div>
+							<div>
+								<img alt="" src="img/nata2.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>拍摄大片</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img alt="" src="img/nata3.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>秀卡</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img alt="" src="img/nata5.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>杂志单人封面</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img alt="" src="img/nata6.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>prada大片中的精彩表现</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img alt="" src="img/i-d1.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>i-d 2015 spring 封面</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img alt="" src="img/i-d2.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>natalie westling</h4>
+										<p>i-d 2015 summer 封面</p>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img alt="" src="img/i-d3.png" />
+								<div class="item-musk">
+									<div class="item-caption">
+										<h4>nathan westling</h4>
+										<p>i-d 2019 封面，nathan迎来了全新的自己</p>
+									</div>
+								</div>
+							</div>
+							<!-- other images... -->
+						</div>
+							
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<!-- book -->
+	<div id="id6" id="testimonial" class="testimonial">
+		<div class="container">
+			<div class="row">
+				<div class="title fadeInDown">
+					<h2>my favorite books</h2>
+					<p>
+						小说、科幻、科普是我最喜欢的小说类型。<br>阅读也许不能让我少受挫折，但能让我坦然接受生活中的不愉快。
+					</p>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 ">
+					<div class="testimonial-slider">
+						<div>
+							<p >△我写的那些幼稚的东西，那些夸大其词、轻浮虚假的欢快，还有做作的语调真让我脸红，不知道莉拉是怎么评论我的。我对杰拉切老师也产生了鄙视和愤怒，因为她给我的语文打了九分，这让我产生了幻觉。在我十五岁生日那天，那封信产生的第一个结果就是让我感觉自己是一个骗子。对于我来说，学校失去了光环，证据就在那里――在莉拉的信里。<br>
+							△我们就是庶民，庶民就是争抢食物和酒，就是为了上菜的先后次序、服务好坏而争吵，就是那面肮脏的地板――服务员正在上面走来走去，就是那些越来越粗俗的祝酒词。<br>
+							△世界上存在这样的关系，你最好的朋友就是你最强大的敌人，这是每个人自我隐瞒的秘密——友谊不只关于爱，也关于恨。”<br></p>
+							<span>-----《那不勒斯四部曲》</span>
+							<!--  div class="signature">
+                                    <img src="img/book1.png" alt="">
+                                </div-->
+						</div>
+						<div>
+							<p>
+							△史蒂芬.霍金曾经在二零零九年六月二十八日办过一次关于时间旅行者的派对。为了确保只有时间旅行者才能出席，他在派对结束后才发出邀请。结果，没有人来。<br>
+							△因此我们只剩下一种奇怪的感觉，感觉自己被禁锢在一个不上不下的地方：人类已经发现了两种及其有效的理论，一种描述了我们宇宙的结构（爱因斯坦的引力理论——广义相对论），另一种则描述了我们宇宙所包含的一切（量子场论），但这两种理论互不理睬，老死不相往来。<br>
+							△在我们的宇宙中不存在所谓真正什么都没有的“空”。当某个地方所有的东西被拿走之后，你可能理由认为那里什么东西都不会留下。但事实就如你无法把某处的时间与空间拿走一样，你也无法拿走量子场的真空。
+						</p>
+							<span>------《极简宇宙史》</span>
+							<!--  div class="signature">
+                                    <img src="img/signature.png" alt="">
+                                </div-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<hr>
+
+<!-- gallery -->
+	<div class="gallery he-codes">
+		<!-- gallery content -->
+		<div class="gallery-cont text-center pt-5">
+			<div class="container pt-5">
+					<div class="title fadeInDown">
+					<h2>books' gallery</h2>
+				</div>
+				<div id="row" class="news-grids text-center no-gutters">
+					<div class="col-md-4 gal-img">
+						<a href="#gal1" id="a-gallery"><img src="img/b1.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4 gal-img">
+						<a href="#gal2" id="a-gallery"><img src="img/b2.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4 gal-img">
+						<a href="#gal3" id="a-gallery"><img src="img/b3.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4 gal-img">
+						<a href="#gal4" id="a-gallery"><img src="img/b4.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4 gal-img">
+						<a href="#gal5" id="a-gallery"><img src="img/b5.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="col-md-4 gal-img">
+						<a href="#gal6" id="a-gallery"><img src="img/b6.png" alt="" class="img-fluid"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- gallery popups -->
+		<!-- popup-->
+		<div id="gal1" class="pop-overlay animate">
+			<div class="popup">
+				<h1 class="mt-4">神秘的黑色石板在史前时代启蒙了地球人类的文明。三百万年后，人类在月球上发现了同样的石板，而石板在出土瞬间立即朝土星方向发射出电磁信号。美国派太空船“发现号”远征土星，追查真相。太空船的超级电脑“哈尔”发疯，害死三名冬眠中的太空人，并犯弗兰克·普尔变成太空漂流物，只有戴维·鲍曼逃过一劫。幸存的鲍曼独自抵达土星，又发现另一块更大的黑石板……<br>&nbsp;&nbsp;&nbsp;&nbsp;在阿瑟·克拉克众多作品中，以“太空漫游”四部曲最为脍炙人口，他用丰富的第一手太空科学资料，创造出比现实太空科技更为创新的场景；而他扎实的科学背景，更使作品中提到的科技情节具有强大的说服力。 本书是“太空漫游四部曲”之一的《2001太空漫游》。</h1>
+				<a class="close" href="#gallery">&times;</a>
+			</div>
+		</div>
+		<!-- //popup -->
+		<!-- popup-->
+		<div id="gal2" class="pop-overlay animate">
+			<div class="popup">
+				<h2 class="mt-4">我们的存在的确让太阳系与众不同。夏夜，你躺在沙滩上，仰望夜空。一颗小小的流星安静滑过，还来不及许愿，不可思议的事情发生了：你一下子穿越五十亿年，走进时光的旅行……
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;霍金亲传弟子、物理学博士克里斯托弗·加尔法德带领我们踏上一场关于宇宙的过去、现在和未来的惊奇之旅。不需要图表和方程式，只需凭着奇诡的想象，我们就可走向衰亡的太阳表面，飞越遥远的星系，感受来自黑洞的死亡魅力……你可以轻松读懂时至今日的宇宙神奇，继续探究关于上帝的存在、时间的起源以及人类的未来。
+
+</h2>
+				<a class="close" href="#gallery">&times;</a>
+			</div>
+		</div>
+		<!-- //popup -->
+		<!-- popup-->
+		<div id="gal3" class="pop-overlay animate">
+			<div class="popup">
+				<p class="mt-4">24世纪，人类发明了时间力场。27世纪，人类在掌握时间旅行技术后，成立了一个叫做永恒时空（Eternity）的组织，在每个时代的背后，默默地守护着人类社会的发展。永恒时空以一个世纪为单位，并视每个世纪的发展需要而加以微调，以避免社会全体受到更大伤害。然而，这种“绝对安全”的未来却在某一天迎来了终结。不知不觉中形成的因果链，仿佛从四面八方涌来的黑暗，即将吞噬全人类。
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;安德鲁•哈伦天职是靠操纵时空壶，进行时间旅行来守护500亿人类，而在一次时空任务中，他邂逅了令他一见倾心的姑娘，而突然来到的爱情却让他开始质疑整个世界。
+
+同时，人类最后的希望，也落在了时间旅行者安德鲁•哈伦最后的时空任务上……</p>
+				<a class="close" href="#gallery">&times;</a>
+			</div>
+		</div>
+		<!-- //popup3 -->
+		<!-- popup-->
+		<div id="gal4" class="pop-overlay animate">
+			<div class="popup">
+				<p class="mt-4">《百年孤独》是魔幻现实主义文学的代表作，描写了布恩迪亚家族七代人的传奇故事，以及加勒比海沿岸小镇马孔多的百年兴衰，反映了拉丁美洲一个世纪以来风云变幻的历史。作品融入神话传说、民间故事、宗教典故等神秘因素，巧妙地糅合了现实与虚幻，展现出一个瑰丽的想象世界，成为20世纪最重要的经典文学巨著之一。1982年加西亚•马尔克斯获得诺贝尔文学奖，奠定世界级文学大师的地位，很大程度上乃是凭借《百年孤独》的巨大影响。</p>
+				<a class="close" href="#gallery">&times;</a>
+			</div>
+		</div>
+		<!-- //popup -->
+		<!-- popup-->
+		<div id="gal5" class="pop-overlay animate">
+			<div class="popup">
+				<p class="mt-4">莉拉和埃莱娜一起成长于那不勒斯一个破败的社区，从小形影不离，彼此信赖，但又都视对方为自己隐秘的镜子，暗暗角力。
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;莉拉聪明，漂亮。她可以毫不畏惧地和欺凌自己的男生对质，也可以去找人人惧怕的阿奇勒﹒卡拉奇要回被他夺走的玩具；埃莱娜既羡慕莉拉的学习天赋和超人的决断力，又一直暗暗模仿莉拉。
+
+家人不支持莉拉继续求学，因此她到父亲和兄长苦苦维持的修鞋店帮工，又面临几个纨绔子弟的追求。埃莱娜则怀着对朋友的关爱、嫉妒和理解，独自继续学业，却始终无法面对和莉拉竞争的失落。
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;最终，十六岁的莉拉决定嫁给肉食店老板，但在婚宴上，她发现了丈夫的背叛。而埃莱娜也站在成人世界的入口，既为前途担忧，也因对思想前卫的尼诺产生朦胧好感而彷徨。</p>
+				<a class="close" href="#gallery">&times;</a>
+			</div>
+		</div>
+		<!-- //popup -->
+		<!-- popup-->
+		<div id="gal6" class="pop-overlay animate">
+			<div class="popup">
+				<p class="mt-4">这是以文革时期为背景的系列作品构成的长篇。发生“文化大革命”的二十世纪六七十年代，正是我们国家和民族的灾难年代。那时，知识分子群体无能为力而极“左”政治泛滥横行。作为倍受歧视的知识分子，往往丧失了自我意志和个人尊严。<br>&nbsp;&nbsp;&nbsp;&nbsp;在这组系列作品里面，名叫“王二”的男主人公处于恐怖和荒谬的环境，遭到各种不公正待遇，但他却摆脱了传统文化人的悲愤心态，创造出一种反抗和超越的方式：既然不能证明自己无辜，便倾向于证明自己不无辜。于是他以性爱作为对抗外部世界的最后据点，将性爱表现得既放浪形骸又纯净无邪。一次次被斗、挨整，他都处之坦然，乐观为本，获得了价值境界上的全线胜利。作者用一种机智的光辉烛照当年那种无处不在的压抑，使人的精神世界从悲惨暗淡的历史阴影中超拔出来。
+
+</p>
+				<a class="close" href="#gallery">&times;</a>
+			</div>
+		</div>
+</div>
+		<!-- //gallery -->
+
+	<!-- contact -->
+	<div id="id7" id="contact" class="contact section">
+		<div class="container">
+			<div class="row">
+				<div class="title fadeInDown">
+					<h2>Contact With Me</h2>
+					<p></p>
+				</div>
+				<!--div class="col-xs-12 col-sm-8 col-md-8">
+					>
+					<div class="contact-form">
+						<input type="text" name="name" id="name" placeholder="Name">
+						<input type="email" name="email" id="email" placeholder="Email">
+						<input type="text" name="web" id="web" placeholder="Web">
+
+						<textarea name="message" id="message" cols="30" rows="10"
+							class="input-message" placeholder="Comment"></textarea>
+
+                        <a href="mailto:1915403988@qq.com?subject=邮件标题&body=邮件内容">告诉我们</a>
+                        
+						<button type="submit" class="btn btn-theme-color">SEND</button>
+					</div>
+				</div-->
+				<div id="contact-center">
+					<div class="contact-info">
+						<h4>CONTACT INFO</h4>
+						<p></p>
+					</div>
+					<div class="contact-address">
+						<ul>
+							<li class="address"><b>Address: </b>山东省 青岛市 中韩街道 中国海洋大学</li>
+							<li class="phone"><b>phone:</b> 15666482775</li>
+							<li class="email"><b>E-mali:</b> 1915403988@qq.com</li>
+							<li class="phone"><b>ins: </b> zhupeiyaoo</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer class="footer">
+		<div class="conainer text-center wow zoomIn">
+			<div class="social-icons clearfix">
+				<a class="facebook" href="#"> <i class="icon-facebook"></i>
+				</a> <a class="twitter" href="#"> <i class="icon-twitter"></i>
+				</a> <a class="dribbble" href="#"> <i class="icon-dribbble"></i>
+				</a> <a class="linkedin" href="#"> <i class="icon-linkedin"></i>
+				</a> <a class="googleplus" href="#"> <i class="icon-googleplus"></i>
+				</a>
+			</div>
+	</footer-->
+
+
+	<!--
+        JavaScripts
+        ========================== -->
+
+	<script src="js/vendor/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.justifiedGallery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	document.getElementById('img1').onclick=function(){
+		window.location.assign('https://ygex.jp/blackpink/');
+		}
+	document.getElementById('img2').onclick=function(){
+		window.location.assign('https://troyesivan.com/');
+		}
+	document.getElementById('img3').onclick=function(){
+		window.location.assign('https://www.charlottelawrence.com/?frontpage=true');
+		}
+	</script>
+</body>
+</html>
