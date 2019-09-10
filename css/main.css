@@ -259,7 +259,9 @@ button.btn.btn-theme-color:hover{
     background-size: cover;
     position: relative;
     width: 100%;
+    background-image: url('../img/home.jpg');
     background-size: cover;
+
 }
 
 .gradient {
