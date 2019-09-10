@@ -259,12 +259,11 @@ button.btn.btn-theme-color:hover{
     background-size: cover;
     position: relative;
     width: 100%;
-    background-image: url('../img/home.jpg');
+    /*background-image: url('../img/background.png');*/
     background-size: cover;
-
 }
 
-.gradient {
+/*.gradient {
     left: 0;
     opacity: 0.5;
     position: absolute;
@@ -282,7 +281,7 @@ button.btn.btn-theme-color:hover{
     background: -ms-linear-gradient(45deg, #002453 0%,#ff2b4a 100%);
     background: linear-gradient(45deg, #002453 0%,#ff2b4a 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002453', endColorstr='#ff2b4a',GradientType=1 );
-}
+}*/
 
 .dtable {
     display: table;
@@ -291,7 +290,7 @@ button.btn.btn-theme-color:hover{
 }
 
 .dtablecell {
-	background-color:#ff9999;
+	background-color:#ff9999;    
     color:black;
     display: table-cell;
     vertical-align: middle;
@@ -308,7 +307,8 @@ button.btn.btn-theme-color:hover{
 }
 
 .banner-content h1 {
-	font-size: 100px;
+    color:black;
+	font-size: 90px;
 	font-weight: bold;
     display: inline-block;
     padding: 15px 0 19px;
@@ -316,6 +316,7 @@ button.btn.btn-theme-color:hover{
 }
 
 .banner-content p {
+    coloe:black;
 	font-size: 25px;
     margin: 23px 0 0;
     font-weight: 200;
@@ -328,7 +329,7 @@ button.btn.btn-theme-color:hover{
 	border:solid black 1px;
 }
 a:link { 
-color:#ff6699; 
+color:black; 
 text-decoration:none; 
 } 
 a:visited { 
@@ -336,7 +337,7 @@ color:black;
 text-decoration:none; 
 } 
 a:hover { 
-border:solid #ff9999 1px;
+border:solid #ff6699 1px;
 color:#ff6699; 
 text-decoration:none; 
 } 
